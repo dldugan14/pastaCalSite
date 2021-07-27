@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import SignIn from './componets/signIn/signIn';
+import SignUp from './componets/signUp/signUp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SignUp></SignUp>
+
+      {/* <SignIn></SignIn> */}
+      <a target="_blank" href="https://icons8.com/icon/97678/spaghetti" rel="noreferrer">Spaghetti</a> icon by <a target="_blank"
+        href="https://icons8.com" rel="noreferrer">Icons8</a>
     </div>
   );
 }
